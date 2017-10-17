@@ -24,7 +24,7 @@ if BOOTSTRAP3_FOLDER not in sys.path:
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 SECRET_KEY = SECRET_KEY = '8lu*6g0lg)9z!ba+a$ehk)xt)x%rxgb$i1&amp;022shmi1jcgihb*'
-DEBUG = False
+DEBUG = True
 DATABASES = {'default': dj_database_url.config(default='postgres://user:pass@localhost/postgresql-shallow-44207')}
 ALLOWED_HOSTS = ['*']
 
